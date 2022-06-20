@@ -11,8 +11,14 @@
     <div id="wrapper">
         <div id="container">
             <div style="text-align: center; Color: red; font-size : large;">Guess the Number!</div>
+            <div id="rad">
+                <input  class="radio" type="radio" id="easy" name="level" checked><label class="radio" for="easy">easy</label>
+                <input class="radio" type="radio"  id="inter" name="level"><label class="radio" for="inter">intermediate</label>
+                <input class="radio" type="radio"  id="hard"  name="level"><label class="radio" for="hard">hard</label>
+            </div>
+            <div id="numberHint" style="text-align: center; font-size: 0.6rem;">Number is Between 0 - 10</div>
             <label for="inputText">Enter Your Number Here!</label>
-            <input name="inputText" type="text">
+            <input autofocus id= "inputText1" name="inputText" type="text">
             <button id="btn1">Submit</button>
             <button id="btn2">Give Up</button>
 

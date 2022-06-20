@@ -13,12 +13,12 @@
     height: 60vh;
     /* margin-bottom: 20px; */
 }
-label, input{
+label, #inputText1{
     margin: 0 0 20px;
     display: block;
     padding: 20px;
 }
-input{
+#inputText1{
     padding: 10px;
     width: 100px;
     margin: 0 0 10% 20%;
@@ -30,4 +30,12 @@ button{
     background-color: rgb(29, 245, 0);
     border: 2px dashed black;
     margin: 0 0 0 10%;
+}
+.radio{
+    padding: 0;
+    margin: 0;
+    color: red;
+    display: inline;
+    /* margin-left: 10px; */
+    margin: 20px 0 10px 10px;
 }
